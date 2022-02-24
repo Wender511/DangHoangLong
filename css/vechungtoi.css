@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    font-family:'Open Sans', sans-serif;
+}
+header{
+    position:fixed;
+    top:0;left:0;right:0;
+    height: 100px;
+    background-color: #b22830;
+    z-index: 1000;
+    padding-bottom: 30px;
+}
+header a img{
+    position: absolute;
+    width:100px;
+    height:80px;
+    left:170px;
+    top:10px;
+}
+header .nav{
+    position: absolute;
+    top:70px;
+    left:400px;
+}
+header .nav a{
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+header .nav a:hover{
+    border: 1px  solid black;
+    padding:10px;
+    background-color:#53382c ;
+}
+header .nav .dropdown{
+    float:left;
+}
+header .nav .dropdown .dropdown-content{
+    position: absolute;
+    background-color: #53382c;
+    width:50%;
+    display:none;
+    min-height:50px
+}
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover{
+    color: black;
+    border: none;
+}
+header .dropdown:hover .dropdown-content{
+    display: block;
+}
+header input{
+    position: absolute;
+    height:30px;
+    width:250px;
+    right:100px;
+    bottom: 5px; 
+}
+.about{
+    background: url(../img/about1.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+}
+.about .text{
+    max-width:30%;
+    margin-left : 200px;
+    position: relative;
+    bottom: 100px; 
+}
+.about .text h1{
+    color :#53382c;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.about .text h3{
+    margin-bottom: 20px;
+}
+.about .text p{
+    margin-bottom: 20px;
+}
+.about .text a{
+    border: 2px solid #53382c;
+    padding: 15px;
+    color:white;
+}
+.about .text a:hover{
+    background-color: #53382c;
+}
+.about2 .text2 a:hover{
+    background-color: white;
+    color:black;
+}
+.about3 .text3 a:hover{
+    background-color: white;
+    color:black;
+}
+.about2{
+    background: url(../img/about2.jpg) no-repeat;
+    background-size: cover;
+    padding : 240px;
+}
+.about2 .text2{
+    max-width:40%;
+    position: relative;
+    float:right;
+    bottom: 90px;
+    left:50px;
+}
+.about2 .text2 h1{
+    color:black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about2 .text2 h3{
+    color : black;
+    margin-bottom: 20px;    
+}
+.about2 .text2 p{
+    color: white;
+    margin-bottom: 20px;
+}
+.about2 .text2  a{
+    border: 2px solid white;
+    padding: 15px;
+    color: white;
+}
+
+.about3{
+    background: url(../img/about3.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+}
+.about3 .text3{
+    max-width:30%;
+    margin-left : 200px;
+    position: relative;
+    bottom: 100px; 
+}
+.about3 .text3 h1{
+    color :white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.about3 .text3 h3{
+    margin-bottom: 20px;
+    color:white
+}
+.about3 .text3 p{
+    margin-bottom: 20px;
+    color:white;
+}
+.about3 .text3 a{
+    border: 2px solid #53382c;
+    padding: 15px;
+    color:white;
+}
+footer{
+    position: relative;
+    width:100%;
+    background:#53382c;
+    text-align: center;
+    height: 200px;
+    bottom: 0;
+}
+footer .footer-items{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 15px;
+}
+footer .footer-items h3{
+    margin:30px 0;
+}
+footer .lienket a{
+    display:block;
+    color:white;
+}

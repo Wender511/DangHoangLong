@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    font-family:'Open Sans', sans-serif;
+}
+header{
+    position:fixed;
+    top:0;left:0;right:0;
+    height: 100px;
+    background-color: #b22830;
+    z-index: 1000;
+    padding-bottom: 30px;
+}
+header a img{
+    position: absolute;
+    width:100px;
+    height:80px;
+    left:170px;
+    top:10px;
+}
+header .nav{
+    position: absolute;
+    top:70px;
+    left:400px;
+}
+header .nav a{
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+header .nav a:hover{
+    border: 1px  solid black;
+    padding:10px;
+    background-color:#53382c ;
+}
+header .nav .dropdown{
+    float:left;
+}
+header .nav .dropdown .dropdown-content{
+    position: absolute;
+    background-color: #53382c;
+    width:50%;
+    display:none;
+    min-height:50px
+}
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover{
+    color: black;
+    border: none;
+}
+header .dropdown:hover .dropdown-content{
+    display: block;
+}
+header input{
+    position: absolute;
+    height:30px;
+    width:250px;
+    right:100px;
+    bottom: 5px; 
+}
+.trasenvang{
+    width:500px;
+    margin-top: 200px;
+    margin-left: 180px;
+    position: relative;
+}
+.trasenvang img{
+    width:75%;
+}
+.trasenvang .content{
+    position: absolute;
+    top:50px;
+    left:400px;
+    width:100%;
+}
+.trasenvang .content p{
+    margin-bottom: 40px;
+    padding-top:50px;
+}
+.trasenvang .content a{
+    color:white;
+    background-color: red;
+    border: 5px double ;
+    padding:15px;
+    font-weight: bold;
+    font-size:35px;
+}
+.cafephin{
+    max-width: 100%;
+    padding-top: 50px;
+    padding-left: 230px;
+    overflow: hidden;
+}
+.cafephin .product-items{
+    max-width:100%;
+    display: inline-block;
+    margin: 20px 30px;
+}
+.cafephin .product-items img:hover{
+    transform: scale(1.2);
+}
+.cafephin .product-items img{
+    margin-bottom: 15px;
+    position: relative;
+    width:70%;
+    right:20px;
+}
+.cafephin .product-items h3{
+    color:#53382c;
+}
+.cafephin .product-items p{
+    color:#53382c;
+    font-weight: bold;
+}
+footer{
+    position: relative;
+    width:100%;
+    background:#53382c;
+    text-align: center;
+    height: 200px;
+    bottom: 0;
+}
+footer .footer-items{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 15px;
+}
+footer .footer-items h3{
+    margin:30px 0;
+}
+footer .lienket a{
+    display:block;
+    color:white;
+}
